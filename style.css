@@ -20,6 +20,7 @@ body {
     margin: 0 auto;
     font-weight: bold;
     padding: 15em 0 5em 0;
+    height: 100%;
 }
 
 .cabecalho h1 {
@@ -58,13 +59,12 @@ h2 {
     color: #4F4F4F;
     margin: 0 auto;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
     font-weight: bold;
 }
 
-.bio {
-    background-image: url('2348319.jpg');
-    background-repeat: no-repeat;
+.bg-body {
+    background: url('image-from-rawpixel-id-597516-jpeg.jpg');
     background-size: cover;
 }
 
@@ -98,7 +98,7 @@ h2 {
 .projetos {
     margin: 0 auto;
     text-align: center;
-    background-image: radial-gradient(circle, white 50%, lightgrey , grey);
+    /* background-image: radial-gradient(circle, white 50%, lightgrey , grey); */
     padding: 5em 0;
 }
 
