@@ -119,6 +119,11 @@ h2 {
     box-shadow: 0.5px 0.5px 10px black;
 }
 
+.tecnologia:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .logo-tec {
     width: 128px;
     height: 128px;
@@ -150,6 +155,10 @@ footer {
     color: white;
     text-decoration: none;
     vertical-align: middle;
+}
+
+.contato a:hover {
+    color: grey;
 }
 
 footer p {
