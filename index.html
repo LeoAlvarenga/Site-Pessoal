@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="cabecalho background-paralax">
+    <header class="cabecalho background-paralax" id="cabecalho" >
         <div class="overlay">
             <h1>Leonardo Alvarenga</h1>
             <p>Desenvolvedor Web e Mobile</p>
@@ -22,62 +22,72 @@
             </ul>
         </div>
     </header>
-
-    <section id="bio" class="bio">
-        <div class="info-bio">
-            <h2>Bio</h2>
-            <img src="perfil.jpg" alt="foto perfil" class="foto-perfil">
     
-            <p>Desenvolvedor Web e Mobile, formado Técnicio em Tecnologia da Informação pelo SENAI - BA, estudante do curso
-                de Análise e Desenvolvimento de Sistemas na Ucsal (Universidade Cátolica de Salvador), tem em sua Stack
-                tecnologias como React.Js para desenvolvimento web e Flutter para desenvolvimento mobile multiplataforma.
-                Atualmente é Analista de Sistemas na Capgemini, onde atua como Pega Certified System Architect.</p>
-        </div>
-    </section>
-    <section id="projetos" class="projetos">
-        <h2>Projetos</h2>
-        <ul>
-            <li class="tecnologia">
-                <img src="html.png" alt="HTML" class="logo-tec">
-                HTML, CSS, JS
-            </li>
-            <li class="tecnologia">
+    <div class="bg-body">
+        <section id="bio" class="bio">
+            <div class="info-bio">
+                <h2>Bio</h2>
+                <img src="perfil.jpg" alt="foto perfil" class="foto-perfil">
+                
+                <p>Desenvolvedor Web e Mobile, formado Técnico em Tecnologia da Informação pelo SENAI - BA, estudante do
+                    curso
+                    de Análise e Desenvolvimento de Sistemas na Ucsal (Universidade Cátolica de Salvador), tem em sua
+                    Stack
+                    tecnologias como React.Js para desenvolvimento web e Flutter para desenvolvimento mobile
+                    multiplataforma.
+                    Atualmente é Analista de Sistemas na Capgemini, onde atua como Pega Certified System Architect.</p>
+                </div>
+            </section>
+            <section id="projetos" class="projetos">
+                <h2>Projetos</h2>
+                <ul>
+                    <li class="tecnologia"
+                    onclick="direcionaGit('https://github.com/LeoAlvarenga?tab=repositories&q=html&type=&language=')">
+                    <img src="html.png" alt="HTML" class="logo-tec">
+                    HTML, CSS, JS
+                </li>
+                <li class="tecnologia"
+                onclick="direcionaGit('https://github.com/LeoAlvarenga?tab=repositories&q=react&type=&language=')">
                 <img src="react_icon_135264.png" alt="React" class="logo-tec">
                 React.Js
             </li>
-            <li class="tecnologia">
-                <img src="flutter_icon_132386.png" alt="Flutter" class="logo-tec">
-                Flutter
-            </li>
-        </ul>
-    </section>
+            <li class="tecnologia"
+            onclick="direcionaGit('https://github.com/LeoAlvarenga?tab=repositories&q=Flutter&type=&language=')">
+            <img src="flutter_icon_132386.png" alt="Flutter" class="logo-tec">
+            Flutter
+        </li>
+    </ul>
+</section>
+</div>
 
-    <footer id="contato" class="background-paralax">
-        <ul>
-            <li class="contato">
-                <a href="tel:+5571999613308"></a>
-                +55 (71) 99961-3308
-            </li>
-            <li class="contato">
-                <a href="mailto:leo.alvarenga08@hotmail.com"></a>
-                leo.alvarenga08@hotmail.com
-            </li>
-            <li class="contato">
-                <a href="https://www.linkedin.com/in/leonardo-alvarenga-035a52104/" target="_blank">
-                    <img src="icons8-linkedin-96.png" alt="Linkedin">
-                    Linkedin
-                </a>
-            </li>
-            <li class="contato">
-                <a href="https://github.com/LeoAlvarenga" target="_blank">
-                    <img src="icon.svg" alt="GitHub">
-                    GitHub
-                </a>
-            </li>
-        </ul>
 
-        <p>&copy; Copyright Leonardo Alvarenga - 2020</p>
-    </footer>
+<footer id="contato" class="background-paralax">
+    <ul>
+        <li class="contato">
+            <a href="tel:+5571999613308"></a>
+            +55 (71) 99961-3308
+        </li>
+        <li class="contato">
+            <a href="mailto:leo.alvarenga08@hotmail.com"></a>
+            leo.alvarenga08@hotmail.com
+        </li>
+        <li class="contato">
+            <a href="https://www.linkedin.com/in/leonardo-alvarenga-035a52104/" target="_blank">
+                <img src="icons8-linkedin-96.png" alt="Linkedin">
+                Linkedin
+            </a>
+        </li>
+        <li class="contato">
+            <a href="https://github.com/LeoAlvarenga" target="_blank">
+                <img src="icon.svg" alt="GitHub">
+                GitHub
+            </a>
+        </li>
+    </ul>
+    
+    <p>&copy; Copyright Leonardo Alvarenga - 2020</p>
+</footer>
 </body>
 
+<script src="./index.js"></script>
 </html>
